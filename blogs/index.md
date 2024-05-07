@@ -3,23 +3,21 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "小王的碎碎念"
+  text: "技术&生活"
+  tagline: 犀渠玉剑良家子，白马金羁侠少年。🍀🍀
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 生活
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: 技术
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 生活
+    details: 没写来着
+  - title: 技术
+    details: 同上
 ---
 
