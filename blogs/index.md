@@ -9,15 +9,15 @@ hero:
   actions:
     - theme: brand
       text: 生活
-      link: /markdown-examples
+      link: /life/index
     - theme: alt
       text: 技术
-      link: /api-examples
+      link: /skills/api-examples.md
 
 features:
   - title: 生活
-    details: 没写来着
+    details: 好好爱自己，好好生活
   - title: 技术
-    details: 同上
+    details: Keep Coding & Never Give Up
 ---
 

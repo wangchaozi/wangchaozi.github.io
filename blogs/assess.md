@@ -1,1 +1,0 @@
-<img src="./static/image.png" alt="图片alt" title="图片title">
