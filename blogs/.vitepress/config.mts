@@ -4,8 +4,12 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "小王的碎碎念",
   description: "A VitePress Site",
+  head: [
+    [
+      'link',{ rel: 'icon', href: '../favicon.ico' }
+    ]
+  ],
   themeConfig: {
-    logo: '/blogs/logo.jpg',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
