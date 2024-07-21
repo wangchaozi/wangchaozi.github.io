@@ -1,11 +1,10 @@
 ### 一、css仿写
 
-###### 1.动画，仿写如下动画。
+###### 1.动画，仿写如下动画
 
 <video src="../static/video/animation.mp4" controls="controls" width="500" height="300"></video>
 
-
-###### 2.过渡，仿写如下过渡。
+###### 2.过渡，仿写如下过渡
 
 <video src="../static/video/animation2.mp4" controls="controls" width="500" height="300"></video>
 
