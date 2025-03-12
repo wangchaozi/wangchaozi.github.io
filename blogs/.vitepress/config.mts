@@ -56,10 +56,8 @@ export default defineConfig({
         {
           text: "后端技术",
           items: [
-            { text: "Markdown Examples", link: "/skills/markdown-examples" },
-            { text: "Runtime API Examples", link: "/skills/api-examples" },
-            { text: "实验室22级前端考核", link: "/skills/2022assess5.12" },
             { text: "认识Java", link: "/skills/BackEnd/认识Java.md" },
+            { text: "Java基础概念", link: "/skills/BackEnd/Java基础概念.md" },
           ],
         },
       ],
