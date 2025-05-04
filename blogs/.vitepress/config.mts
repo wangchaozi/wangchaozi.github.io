@@ -1,4 +1,4 @@
-import { defineConfig } from "vitepress"
+import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -9,18 +9,17 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "首页", link: "/" },
-      { text: "生活", link: "/life/index" },
-      { text: "技术",
-        items:[
-          {text:'前端', link: "/skills/FrondEnd/markdown-examples.md"}, // 可不写后缀 .md
-          {text:'后端', link: '/skills/BackEnd/api-examples.md'}// 外部链接
-      ]
-       },
-      { text: "研生", link: "/study/index.md" },
+      { text: "无聊的碎碎念", link: "/life/index" },
+      {
+        text: "顽强的好技术",
+        items: [
+          { text: "前端", link: "/skills/FrondEnd/markdown-examples.md" },
+          { text: "后端", link: "/skills/BackEnd/api-examples.md" },
+        ],
+      },
     ],
 
     sidebar: {
-      // 当用户位于 `guide` 目录时，会显示此侧边栏
       "/life/": [
         {
           text: "我的生活",
@@ -30,19 +29,6 @@ export default defineConfig({
           ],
         },
       ],
-
-      // 当用户位于 `config` 目录时，会显示此侧边栏
-      // "/skills/": [
-      //   {
-      //     text: "苦逼技术",
-      //     items: [
-      //       { text: "Markdown Examples", link: "/skills/markdown-examples" },
-      //       { text: "Runtime API Examples", link: "/skills/api-examples" },
-      //       { text: "实验室22级前端考核", link: "/skills/2022assess5.12" },
-      //       { text: "实验室23级前端考核", link: "/skills/2023assess5.12" },
-      //     ],
-      //   },
-      // ],
       "/skills/FrontEnd/": [
         {
           text: "前端技术",
@@ -74,4 +60,4 @@ export default defineConfig({
 
     socialLinks: [{ icon: "github", link: "https://github.com/wangchaozi" }],
   },
-})
+});
