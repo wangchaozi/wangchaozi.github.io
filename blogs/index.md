@@ -7,7 +7,7 @@ hero:
   text: "技术&生活"
   tagline: 犀渠玉剑良家子，白马金羁侠少年。🍀🍀
   image:
-    src: /logo.ico
+    src: /logo.png
     alt: VitePress
   actions:
     - theme: brand
