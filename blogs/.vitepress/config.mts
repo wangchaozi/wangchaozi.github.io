@@ -4,7 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "小王的碎碎念",
   description: "A VitePress Site",
-  head: [["link", { rel: "icon", href: "/public/logo.png" }]],
+  head: [["link", { rel: "icon", href: "/logo.png" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -41,10 +41,7 @@ export default defineConfig({
       "/skills/BackEnd/": [
         {
           text: "后端技术",
-          items: [
-            { text: "认识Java", link: "/skills/BackEnd/认识Java.md" },
-            { text: "Java基础概念", link: "/skills/BackEnd/Java基础概念.md" },
-          ],
+          items: [{ text: "邂逅Nest", link: "/skills/BackEnd/邂逅Nest.md" }],
         },
       ],
       "/study/": [
