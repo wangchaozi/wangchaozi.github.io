@@ -14,7 +14,7 @@ export default defineConfig({
         text: "顽强的好技术",
         items: [
           { text: "前端", link: "/skills/FrondEnd/markdown-examples.md" },
-          { text: "后端", link: "/skills/BackEnd/api-examples.md" },
+          { text: "后端", link: "/skills/BackEnd/邂逅Nest.md" },
         ],
       },
     ],
