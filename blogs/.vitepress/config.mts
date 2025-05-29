@@ -41,7 +41,10 @@ export default defineConfig({
       "/skills/BackEnd/": [
         {
           text: "后端技术",
-          items: [{ text: "邂逅Nest", link: "/skills/BackEnd/邂逅Nest.md" }],
+          items: [
+            { text: "邂逅Nest", link: "/skills/BackEnd/邂逅Nest.md" },
+            { text: "Nest基础知识", link: "/skills/BackEnd/Nest基础知识.md" },
+          ],
         },
       ],
       "/study/": [
