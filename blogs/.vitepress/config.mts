@@ -9,14 +9,9 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "首页", link: "/" },
+      { text: "前端场景题", link: "/skills/FrondEnd/scene-questions.md" },
+      { text: "后端", link: "/skills/BackEnd/邂逅Nest.md" },  
       { text: "无聊的碎碎念", link: "/life/index" },
-      {
-        text: "顽强的好技术",
-        items: [
-          { text: "前端", link: "/skills/FrondEnd/markdown-examples.md" },
-          { text: "后端", link: "/skills/BackEnd/邂逅Nest.md" },
-        ],
-      },
     ],
 
     sidebar: {
@@ -33,8 +28,8 @@ export default defineConfig({
         {
           text: "前端技术",
           items: [
-            { text: "Markdown Examples", link: "/skills/markdown-examples" },
-            { text: "Runtime API Examples", link: "/skills/api-examples" },
+            { text: "前端场景题", link: "/skills/BackEnd/scene-questions.md" },
+            { text: "Nest基础知识", link: "/skills/BackEnd/Nest基础知识.md" },
           ],
         },
       ],
